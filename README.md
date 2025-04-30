@@ -1,2 +1,4 @@
 # Ejercicio_Filtrado
 Repositorio con archivos de filtrado OpenFOAM V.12.00
+-------------------------------------------------------
+Este script utiliza la librería Pandas para leer y procesar datos de un archivo de texto generado por una simulación de OpenFOAM. El objetivo principal es extraer la información de la evolución de la presión a lo largo del tiempo para diferentes puntos (probes) ubicados en el dominio de la simulación. El código solicita al usuario el número de probes presentes en el archivo y el nombre del archivo a procesar. Luego, lee los datos, identifica la columna de tiempo y las columnas correspondientes a cada probe, y finalmente genera un gráfico que muestra la variación de la presión en función del tiempo para una probe específica, utilizando los índices de las columnas del DataFrame de Pandas.
